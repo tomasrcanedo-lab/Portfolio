@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" width="1200" height="1500" role="img" aria-label="ARCO // NEGRO MATE — PACKAGING">
+
+<defs>
+  <radialGradient id="studio-arco-packaging" cx="50%" cy="42%" r="75%">
+    <stop offset="0" stop-color="#FFFFFF"/>
+    <stop offset="1" stop-color="#E9E9E6"/>
+  </radialGradient>
+  <linearGradient id="black-arco-packaging" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2a2a2a"/>
+    <stop offset=".35" stop-color="#0A0A0A"/>
+    <stop offset="1" stop-color="#000"/>
+  </linearGradient>
+  <linearGradient id="lens-arco-packaging" x1="0" y1="0" x2=".3" y2="1">
+    <stop offset="0" stop-color="#262626"/>
+    <stop offset=".5" stop-color="#0d0d0d"/>
+    <stop offset="1" stop-color="#030303"/>
+  </linearGradient>
+  <linearGradient id="smoke-arco-packaging" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#4a4a48"/>
+    <stop offset="1" stop-color="#1c1c1b"/>
+  </linearGradient>
+  <linearGradient id="mirror-arco-packaging" x1="0" y1="0" x2=".2" y2="1">
+    <stop offset="0" stop-color="#f7f7f5"/>
+    <stop offset=".42" stop-color="#b9b9b6"/>
+    <stop offset=".5" stop-color="#6d6d6a"/>
+    <stop offset=".62" stop-color="#cfcfcb"/>
+    <stop offset="1" stop-color="#8d8d89"/>
+  </linearGradient>
+  <linearGradient id="silver-arco-packaging" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#f4f4f2"/>
+    <stop offset=".45" stop-color="#9c9c98"/>
+    <stop offset=".6" stop-color="#e2e2df"/>
+    <stop offset="1" stop-color="#7d7d79"/>
+  </linearGradient>
+  <filter id="soft-arco-packaging" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="28"/>
+  </filter>
+  <filter id="grain-arco-packaging" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/>
+    <feColorMatrix type="matrix" values="0 0 0 0 .5  0 0 0 0 .5  0 0 0 0 .5  0 0 0 .55 0"/>
+  </filter>
+</defs>
+<rect width="1200" height="1500" fill="url(#studio-arco-packaging)"/>
+
+    <ellipse cx="600" cy="1110" rx="380" ry="40" fill="#000" opacity=".18" filter="url(#soft-arco-packaging)"/>
+    <g transform="translate(600 760) rotate(-6)">
+      <path d="M -260 -330 L 260 -330 Q 274 -330 274 -316 L 270 330 Q 270 346 254 346 L -254 346 Q -270 346 -270 330 L -274 -316 Q -274 -330 -260 -330 Z" fill="#111"/>
+      <rect x="-274" y="-330" width="548" height="70" fill="#1b1b1b"/>
+      <path d="M -60 -300 C -40 -380 40 -380 60 -300" stroke="#222" stroke-width="10" fill="none"/>
+      <rect x="-274" y="-330" width="548" height="676" fill="#fff" opacity=".05" filter="url(#grain-arco-packaging)"/>
+      <rect x="-110" y="-40" width="220" height="84" fill="#fff"/>
+      <text x="0" y="14" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="600" font-size="34" letter-spacing="6" fill="#0A0A0A">LOGO</text>
+    </g>
+    <g transform="translate(860 1030) rotate(8)">
+      <rect x="-120" y="-76" width="240" height="152" fill="#fff" stroke="#D6D6D2" stroke-width="2"/>
+      <text x="-96" y="-30" font-family="ui-monospace, Menlo, monospace" font-size="20" letter-spacing="2" fill="#6B6B6B">DROP 01</text>
+      <text x="-96" y="40" font-family="ui-monospace, Menlo, monospace" font-size="40" letter-spacing="2" fill="#0A0A0A">Nº 01/50</text>
+    </g>
+
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="20" letter-spacing="2" fill="#6B6B6B">
+  <text x="48" y="1452">ARCO // NEGRO MATE — PACKAGING</text>
+  <text x="1152" y="1452" text-anchor="end">PLACEHOLDER</text>
+</g>
+</svg>

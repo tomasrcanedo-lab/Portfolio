@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" width="1200" height="1500" role="img" aria-label="DIJE INICIAL // PLATA">
+
+<defs>
+  <radialGradient id="studio-dije-inicial" cx="50%" cy="42%" r="75%">
+    <stop offset="0" stop-color="#FFFFFF"/>
+    <stop offset="1" stop-color="#E9E9E6"/>
+  </radialGradient>
+  <linearGradient id="black-dije-inicial" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2a2a2a"/>
+    <stop offset=".35" stop-color="#0A0A0A"/>
+    <stop offset="1" stop-color="#000"/>
+  </linearGradient>
+  <linearGradient id="lens-dije-inicial" x1="0" y1="0" x2=".3" y2="1">
+    <stop offset="0" stop-color="#262626"/>
+    <stop offset=".5" stop-color="#0d0d0d"/>
+    <stop offset="1" stop-color="#030303"/>
+  </linearGradient>
+  <linearGradient id="smoke-dije-inicial" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#4a4a48"/>
+    <stop offset="1" stop-color="#1c1c1b"/>
+  </linearGradient>
+  <linearGradient id="mirror-dije-inicial" x1="0" y1="0" x2=".2" y2="1">
+    <stop offset="0" stop-color="#f7f7f5"/>
+    <stop offset=".42" stop-color="#b9b9b6"/>
+    <stop offset=".5" stop-color="#6d6d6a"/>
+    <stop offset=".62" stop-color="#cfcfcb"/>
+    <stop offset="1" stop-color="#8d8d89"/>
+  </linearGradient>
+  <linearGradient id="silver-dije-inicial" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#f4f4f2"/>
+    <stop offset=".45" stop-color="#9c9c98"/>
+    <stop offset=".6" stop-color="#e2e2df"/>
+    <stop offset="1" stop-color="#7d7d79"/>
+  </linearGradient>
+  <filter id="soft-dije-inicial" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="28"/>
+  </filter>
+  <filter id="grain-dije-inicial" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/>
+    <feColorMatrix type="matrix" values="0 0 0 0 .5  0 0 0 0 .5  0 0 0 0 .5  0 0 0 .55 0"/>
+  </filter>
+</defs>
+<rect width="1200" height="1500" fill="url(#studio-dije-inicial)"/>
+
+      <ellipse cx="360.0" cy="300.0" rx="11.200000000000001" ry="6.3" transform="rotate(68.2 360.0 300.0)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="370.9" cy="326.7" rx="6.3" ry="6.3" transform="rotate(157.3 370.9 326.7)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="381.8" cy="352.1" rx="11.200000000000001" ry="6.3" transform="rotate(66.3 381.8 352.1)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="392.7" cy="376.2" rx="6.3" ry="6.3" transform="rotate(155.1 392.7 376.2)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="403.6" cy="399.2" rx="11.200000000000001" ry="6.3" transform="rotate(63.9 403.6 399.2)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="414.5" cy="420.9" rx="6.3" ry="6.3" transform="rotate(152.6 414.5 420.9)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="425.5" cy="441.3" rx="11.200000000000001" ry="6.3" transform="rotate(61.2 425.5 441.3)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="436.4" cy="460.5" rx="6.3" ry="6.3" transform="rotate(149.6 436.4 460.5)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="447.3" cy="478.5" rx="11.200000000000001" ry="6.3" transform="rotate(57.8 447.3 478.5)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="458.2" cy="495.2" rx="6.3" ry="6.3" transform="rotate(145.9 458.2 495.2)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="469.1" cy="510.7" rx="11.200000000000001" ry="6.3" transform="rotate(53.7 469.1 510.7)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="480.0" cy="525.0" rx="6.3" ry="6.3" transform="rotate(141.3 480.0 525.0)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="490.9" cy="538.0" rx="11.200000000000001" ry="6.3" transform="rotate(48.7 490.9 538.0)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="501.8" cy="549.8" rx="6.3" ry="6.3" transform="rotate(135.6 501.8 549.8)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="512.7" cy="560.3" rx="11.200000000000001" ry="6.3" transform="rotate(42.3 512.7 560.3)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="523.6" cy="569.6" rx="6.3" ry="6.3" transform="rotate(128.5 523.6 569.6)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="534.5" cy="577.7" rx="11.200000000000001" ry="6.3" transform="rotate(34.3 534.5 577.7)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="545.5" cy="584.5" rx="6.3" ry="6.3" transform="rotate(119.6 545.5 584.5)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="556.4" cy="590.1" rx="11.200000000000001" ry="6.3" transform="rotate(24.4 556.4 590.1)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="567.3" cy="594.4" rx="6.3" ry="6.3" transform="rotate(108.8 567.3 594.4)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="578.2" cy="597.5" rx="11.200000000000001" ry="6.3" transform="rotate(12.8 578.2 597.5)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="589.1" cy="599.4" rx="6.3" ry="6.3" transform="rotate(96.5 589.1 599.4)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="600.0" cy="600.0" rx="11.200000000000001" ry="6.3" transform="rotate(0.0 600.0 600.0)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="610.9" cy="599.4" rx="6.3" ry="6.3" transform="rotate(83.5 610.9 599.4)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="621.8" cy="597.5" rx="11.200000000000001" ry="6.3" transform="rotate(-12.8 621.8 597.5)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="632.7" cy="594.4" rx="6.3" ry="6.3" transform="rotate(71.2 632.7 594.4)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="643.6" cy="590.1" rx="11.200000000000001" ry="6.3" transform="rotate(-24.4 643.6 590.1)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="654.5" cy="584.5" rx="6.3" ry="6.3" transform="rotate(60.4 654.5 584.5)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="665.5" cy="577.7" rx="11.200000000000001" ry="6.3" transform="rotate(-34.3 665.5 577.7)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="676.4" cy="569.6" rx="6.3" ry="6.3" transform="rotate(51.5 676.4 569.6)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="687.3" cy="560.3" rx="11.200000000000001" ry="6.3" transform="rotate(-42.3 687.3 560.3)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="698.2" cy="549.8" rx="6.3" ry="6.3" transform="rotate(44.4 698.2 549.8)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="709.1" cy="538.0" rx="11.200000000000001" ry="6.3" transform="rotate(-48.7 709.1 538.0)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="720.0" cy="525.0" rx="6.3" ry="6.3" transform="rotate(38.7 720.0 525.0)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="730.9" cy="510.7" rx="11.200000000000001" ry="6.3" transform="rotate(-53.7 730.9 510.7)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="741.8" cy="495.2" rx="6.3" ry="6.3" transform="rotate(34.1 741.8 495.2)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="752.7" cy="478.5" rx="11.200000000000001" ry="6.3" transform="rotate(-57.8 752.7 478.5)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="763.6" cy="460.5" rx="6.3" ry="6.3" transform="rotate(30.4 763.6 460.5)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="774.5" cy="441.3" rx="11.200000000000001" ry="6.3" transform="rotate(-61.2 774.5 441.3)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="785.5" cy="420.9" rx="6.3" ry="6.3" transform="rotate(27.4 785.5 420.9)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="796.4" cy="399.2" rx="11.200000000000001" ry="6.3" transform="rotate(-63.9 796.4 399.2)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="807.3" cy="376.2" rx="6.3" ry="6.3" transform="rotate(24.9 807.3 376.2)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="818.2" cy="352.1" rx="11.200000000000001" ry="6.3" transform="rotate(-66.3 818.2 352.1)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="829.1" cy="326.7" rx="6.3" ry="6.3" transform="rotate(22.7 829.1 326.7)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/><ellipse cx="840.0" cy="300.0" rx="11.200000000000001" ry="6.3" transform="rotate(-68.2 840.0 300.0)" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="5"/>
+      <circle cx="600" cy="618" r="16" fill="none" stroke="url(#silver-dije-inicial)" stroke-width="6"/>
+      <ellipse cx="600" cy="1080" rx="160" ry="22" fill="#000" opacity=".12" filter="url(#soft-dije-inicial)"/>
+      <text x="600" y="960" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="380" fill="url(#silver-dije-inicial)" stroke="#8d8d89" stroke-width="3">A</text>
+      <circle cx="560" cy="760" r="7" fill="#fff" stroke="#bdbdb9" stroke-width="2"/><circle cx="585" cy="820" r="7" fill="#fff" stroke="#bdbdb9" stroke-width="2"/><circle cx="610" cy="880" r="7" fill="#fff" stroke="#bdbdb9" stroke-width="2"/><circle cx="640" cy="760" r="7" fill="#fff" stroke="#bdbdb9" stroke-width="2"/><circle cx="615" cy="820" r="7" fill="#fff" stroke="#bdbdb9" stroke-width="2"/><circle cx="590" cy="880" r="7" fill="#fff" stroke="#bdbdb9" stroke-width="2"/><circle cx="575" cy="930" r="7" fill="#fff" stroke="#bdbdb9" stroke-width="2"/><circle cx="625" cy="930" r="7" fill="#fff" stroke="#bdbdb9" stroke-width="2"/><circle cx="600" cy="700" r="7" fill="#fff" stroke="#bdbdb9" stroke-width="2"/>
+
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="20" letter-spacing="2" fill="#6B6B6B">
+  <text x="48" y="1452">DIJE INICIAL // PLATA</text>
+  <text x="1152" y="1452" text-anchor="end">PLACEHOLDER</text>
+</g>
+</svg>

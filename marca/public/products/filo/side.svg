@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" width="1200" height="1500" role="img" aria-label="FILO // NEGRO — 3/4">
+
+<defs>
+  <radialGradient id="studio-filo-side" cx="50%" cy="42%" r="75%">
+    <stop offset="0" stop-color="#FFFFFF"/>
+    <stop offset="1" stop-color="#E9E9E6"/>
+  </radialGradient>
+  <linearGradient id="black-filo-side" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2a2a2a"/>
+    <stop offset=".35" stop-color="#0A0A0A"/>
+    <stop offset="1" stop-color="#000"/>
+  </linearGradient>
+  <linearGradient id="lens-filo-side" x1="0" y1="0" x2=".3" y2="1">
+    <stop offset="0" stop-color="#262626"/>
+    <stop offset=".5" stop-color="#0d0d0d"/>
+    <stop offset="1" stop-color="#030303"/>
+  </linearGradient>
+  <linearGradient id="smoke-filo-side" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#4a4a48"/>
+    <stop offset="1" stop-color="#1c1c1b"/>
+  </linearGradient>
+  <linearGradient id="mirror-filo-side" x1="0" y1="0" x2=".2" y2="1">
+    <stop offset="0" stop-color="#f7f7f5"/>
+    <stop offset=".42" stop-color="#b9b9b6"/>
+    <stop offset=".5" stop-color="#6d6d6a"/>
+    <stop offset=".62" stop-color="#cfcfcb"/>
+    <stop offset="1" stop-color="#8d8d89"/>
+  </linearGradient>
+  <linearGradient id="silver-filo-side" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#f4f4f2"/>
+    <stop offset=".45" stop-color="#9c9c98"/>
+    <stop offset=".6" stop-color="#e2e2df"/>
+    <stop offset="1" stop-color="#7d7d79"/>
+  </linearGradient>
+  <filter id="soft-filo-side" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="28"/>
+  </filter>
+  <filter id="grain-filo-side" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/>
+    <feColorMatrix type="matrix" values="0 0 0 0 .5  0 0 0 0 .5  0 0 0 0 .5  0 0 0 .55 0"/>
+  </filter>
+</defs>
+<rect width="1200" height="1500" fill="url(#studio-filo-side)"/>
+
+      <ellipse cx="620" cy="880" rx="400" ry="30" fill="#000" opacity=".14" filter="url(#soft-filo-side)"/>
+      <g transform="translate(470 700) scale(.86)">
+        <g transform="translate(-300 -10) rotate(12)"><path d="M 0 0 L 360 18 Q 420 22 440 70" stroke="url(#black-filo-side)" stroke-width="26" fill="none" stroke-linecap="round"/></g>
+        <g transform="matrix(.72 -.08 0 1 0 0)">
+        
+          <path d="M -452 -96 L -70 -52 C -52 0 -66 40 -110 52 L -330 58 C -400 52 -440 6 -452 -96 Z" fill="url(#lens-filo-side)" stroke="url(#black-filo-side)" stroke-width="26" stroke-linejoin="miter"/>
+          <path d="M -452 -96 L -484 -118 L -436 -64 Z" fill="#0A0A0A"/>
+          <path d="M -420 -84 L -100 -50" stroke="#ffffff" stroke-opacity=".18" stroke-width="5" fill="none" stroke-linecap="round"/>
+        <g transform="scale(-1,1)">
+          <path d="M -452 -96 L -70 -52 C -52 0 -66 40 -110 52 L -330 58 C -400 52 -440 6 -452 -96 Z" fill="url(#lens-filo-side)" stroke="url(#black-filo-side)" stroke-width="26" stroke-linejoin="miter"/>
+          <path d="M -452 -96 L -484 -118 L -436 -64 Z" fill="#0A0A0A"/>
+          <path d="M -420 -84 L -100 -50" stroke="#ffffff" stroke-opacity=".18" stroke-width="5" fill="none" stroke-linecap="round"/>
+        </g>
+        <path d="M -70 -50 Q 0 -62 70 -50" stroke="#0A0A0A" stroke-width="22" fill="none"/></g>
+        <g transform="translate(320 -40) rotate(-4)"><path d="M 0 0 L 360 18 Q 420 22 440 70" stroke="url(#black-filo-side)" stroke-width="26" fill="none" stroke-linecap="round"/></g>
+      </g>
+
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="20" letter-spacing="2" fill="#6B6B6B">
+  <text x="48" y="1452">FILO // NEGRO — 3/4</text>
+  <text x="1152" y="1452" text-anchor="end">PLACEHOLDER</text>
+</g>
+</svg>
