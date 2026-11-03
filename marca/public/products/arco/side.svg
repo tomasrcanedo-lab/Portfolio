@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" width="1200" height="1500" role="img" aria-label="ARCO // NEGRO MATE — 3/4">
+
+<defs>
+  <radialGradient id="studio-arco-side" cx="50%" cy="42%" r="75%">
+    <stop offset="0" stop-color="#FFFFFF"/>
+    <stop offset="1" stop-color="#E9E9E6"/>
+  </radialGradient>
+  <linearGradient id="black-arco-side" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2a2a2a"/>
+    <stop offset=".35" stop-color="#0A0A0A"/>
+    <stop offset="1" stop-color="#000"/>
+  </linearGradient>
+  <linearGradient id="lens-arco-side" x1="0" y1="0" x2=".3" y2="1">
+    <stop offset="0" stop-color="#262626"/>
+    <stop offset=".5" stop-color="#0d0d0d"/>
+    <stop offset="1" stop-color="#030303"/>
+  </linearGradient>
+  <linearGradient id="smoke-arco-side" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#4a4a48"/>
+    <stop offset="1" stop-color="#1c1c1b"/>
+  </linearGradient>
+  <linearGradient id="mirror-arco-side" x1="0" y1="0" x2=".2" y2="1">
+    <stop offset="0" stop-color="#f7f7f5"/>
+    <stop offset=".42" stop-color="#b9b9b6"/>
+    <stop offset=".5" stop-color="#6d6d6a"/>
+    <stop offset=".62" stop-color="#cfcfcb"/>
+    <stop offset="1" stop-color="#8d8d89"/>
+  </linearGradient>
+  <linearGradient id="silver-arco-side" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#f4f4f2"/>
+    <stop offset=".45" stop-color="#9c9c98"/>
+    <stop offset=".6" stop-color="#e2e2df"/>
+    <stop offset="1" stop-color="#7d7d79"/>
+  </linearGradient>
+  <filter id="soft-arco-side" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="28"/>
+  </filter>
+  <filter id="grain-arco-side" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/>
+    <feColorMatrix type="matrix" values="0 0 0 0 .5  0 0 0 0 .5  0 0 0 0 .5  0 0 0 .55 0"/>
+  </filter>
+</defs>
+<rect width="1200" height="1500" fill="url(#studio-arco-side)"/>
+
+      <ellipse cx="620" cy="880" rx="400" ry="30" fill="#000" opacity=".14" filter="url(#soft-arco-side)"/>
+      <g transform="translate(470 700) scale(.86)">
+        <g transform="translate(-300 -10) rotate(12)"><path d="M 0 0 L 360 18 Q 420 22 440 70" stroke="url(#black-arco-side)" stroke-width="16" fill="none" stroke-linecap="round"/><g fill="#E9E9E6"><rect x="80" y="0" width="34" height="5"/><rect x="130" y="2" width="34" height="5"/><rect x="180" y="5" width="34" height="5"/></g></g>
+        <g transform="matrix(.72 -.08 0 1 0 0)">
+        <path d="M -466 -50 C -486 -42 -496 -20 -500 8" stroke="#1a1a1a" stroke-width="12" fill="none" stroke-linecap="round"/>
+        <path d="M 466 -50 C 486 -42 496 -20 500 8" stroke="#1a1a1a" stroke-width="12" fill="none" stroke-linecap="round"/>
+        <path d="M -468 -48 Q 0 -86 468 -48 Q 462 40 402 72 Q 210 100 64 78 Q 24 34 0 34 Q -24 34 -64 78 Q -210 100 -402 72 Q -462 40 -468 -48 Z" fill="url(#lens-arco-side)"/>
+        <path d="M -470 -50 Q 0 -90 470 -50" stroke="#0A0A0A" stroke-width="14" fill="none" stroke-linecap="round"/>
+        <path d="M -20 30 L -10 0 L 10 0 L 20 30" stroke="#2a2a2a" stroke-width="6" fill="none"/>
+        <path d="M -420 -40 Q 0 -72 420 -40" stroke="#ffffff" stroke-opacity=".18" stroke-width="5" fill="none" stroke-linecap="round"/></g>
+        <g transform="translate(320 -40) rotate(-4)"><path d="M 0 0 L 360 18 Q 420 22 440 70" stroke="url(#black-arco-side)" stroke-width="16" fill="none" stroke-linecap="round"/><g fill="#E9E9E6"><rect x="80" y="0" width="34" height="5"/><rect x="130" y="2" width="34" height="5"/><rect x="180" y="5" width="34" height="5"/></g></g>
+      </g>
+
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="20" letter-spacing="2" fill="#6B6B6B">
+  <text x="48" y="1452">ARCO // NEGRO MATE — 3/4</text>
+  <text x="1152" y="1452" text-anchor="end">PLACEHOLDER</text>
+</g>
+</svg>
