@@ -51,8 +51,4 @@
         <path d="M -20 30 L -10 0 L 10 0 L 20 30" stroke="#2a2a2a" stroke-width="6" fill="none"/>
         <path d="M -420 -40 Q 0 -72 420 -40" stroke="#ffffff" stroke-opacity=".18" stroke-width="5" fill="none" stroke-linecap="round"/></g>
 
-<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="20" letter-spacing="2" fill="#6B6B6B">
-  <text x="48" y="1452">ARCO // NEGRO MATE — FRENTE</text>
-  <text x="1152" y="1452" text-anchor="end">PLACEHOLDER</text>
-</g>
 </svg>

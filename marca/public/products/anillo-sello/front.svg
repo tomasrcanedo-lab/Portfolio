@@ -48,8 +48,4 @@
       <rect x="470" y="560" width="260" height="170" rx="22" fill="url(#silver-anillo-sello)" stroke="#8d8d89" stroke-width="3"/>
       <rect x="494" y="582" width="212" height="126" rx="14" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="3"/>
 
-<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="20" letter-spacing="2" fill="#6B6B6B">
-  <text x="48" y="1452">ANILLO SELLO // PLATA</text>
-  <text x="1152" y="1452" text-anchor="end">PLACEHOLDER</text>
-</g>
 </svg>

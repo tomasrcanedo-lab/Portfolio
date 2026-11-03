@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { BRAND } from "@/config/brand";
 import { accessories, campaign, eyewear, heroImage } from "@/data/catalog";
-import { productImages, resolveImage } from "@/lib/images";
+import { productImages, resolveImage, resolveVideo } from "@/lib/images";
+import { HeroMedia } from "@/components/HeroMedia";
 import { Img } from "@/components/Img";
 import { ProductCard } from "@/components/ProductCard";
 import { AccessoryCard } from "@/components/AccessoryCard";
@@ -10,13 +11,14 @@ import { WaitlistForm } from "@/components/WaitlistForm";
 
 export default function Home() {
   const hero = resolveImage("campaign", heroImage.file);
+  const heroVideo = resolveVideo("campaign", heroImage.file);
   const packaging = resolveImage("packaging", "estuche");
 
   return (
     <>
       {/* HERO */}
       <section aria-label={`${BRAND.currentDrop}`} className="relative h-[78svh] min-h-[480px] w-full overflow-hidden bg-ink md:h-[88svh]">
-        <Img src={hero} alt={heroImage.alt} fill priority sizes="100vw" className="object-cover grayscale" />
+        <HeroMedia poster={hero} alt={heroImage.alt} video={heroVideo} />
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/0 to-black/0" aria-hidden />
         <div className="container-site absolute inset-x-0 bottom-0 pb-10 md:pb-16">
           <h1 className="title text-[13vw] text-white sm:text-6xl md:text-8xl">

@@ -72,11 +72,8 @@ const defs = (id) => `
   </filter>
 </defs>`;
 
-const label = (w, h, left, right) => `
-<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="${Math.round(w / 60)}" letter-spacing="2" fill="${C.muted}">
-  <text x="${w * 0.04}" y="${h - w * 0.04}">${left}</text>
-  <text x="${w * 0.96}" y="${h - w * 0.04}" text-anchor="end">${right}</text>
-</g>`;
+// Sin texto sobre las imágenes: el nombre del modelo ya figura en la card.
+const label = () => "";
 
 /* ------------------------------------------------------------------ */
 /* Anteojos: siluetas de frente centradas en (0,0), ancho ~920          */
@@ -313,10 +310,6 @@ ${defs(id)}
 ${scene(id, W, H)}
 <rect width="${W}" height="${H}" fill="url(#vig-${id})"/>
 <rect width="${W}" height="${H}" filter="url(#grain-${id})" opacity=".55" style="mix-blend-mode:overlay"/>
-<g font-family="ui-monospace, Menlo, monospace" font-size="${Math.round(W / 70)}" letter-spacing="3" fill="#ffffff" fill-opacity=".7">
-  <text x="${W * 0.04}" y="${H - W * 0.04}">${title}</text>
-  <text x="${W * 0.96}" y="${H - W * 0.04}" text-anchor="end">PLACEHOLDER</text>
-</g>
 </svg>`;
 }
 

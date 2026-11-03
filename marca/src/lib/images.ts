@@ -24,3 +24,10 @@ export function productImages(p: Product): ResolvedImages {
   for (const key of p.images) out[key] = resolveImage(`products/${p.handle}`, key);
   return out;
 }
+
+/** Video del hero: /public/campaign/hero.mp4 (y opcional hero.webm). null si no hay. */
+export function resolveVideo(dir: string, name: string) {
+  const mp4 = existsSync(join(PUBLIC_DIR, dir, `${name}.mp4`)) ? `/${dir}/${name}.mp4` : null;
+  const webm = existsSync(join(PUBLIC_DIR, dir, `${name}.webm`)) ? `/${dir}/${name}.webm` : null;
+  return mp4 || webm ? { mp4, webm } : null;
+}

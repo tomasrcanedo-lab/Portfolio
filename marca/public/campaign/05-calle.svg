@@ -55,8 +55,4 @@
     <circle cx="1136" cy="940" r="96" fill="#0b0b0b"/>
 <rect width="1600" height="2000" fill="url(#vig-c-05-calle)"/>
 <rect width="1600" height="2000" filter="url(#grain-c-05-calle)" opacity=".55" style="mix-blend-mode:overlay"/>
-<g font-family="ui-monospace, Menlo, monospace" font-size="23" letter-spacing="3" fill="#ffffff" fill-opacity=".7">
-  <text x="64" y="1936">CALLE</text>
-  <text x="1536" y="1936" text-anchor="end">PLACEHOLDER</text>
-</g>
 </svg>

@@ -57,8 +57,4 @@
       <text x="-96" y="40" font-family="ui-monospace, Menlo, monospace" font-size="40" letter-spacing="2" fill="#0A0A0A">Nº 01/50</text>
     </g></g>
 
-<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="27" letter-spacing="2" fill="#6B6B6B">
-  <text x="64" y="1136">FUNDA + TARJETA NUMERADA</text>
-  <text x="1536" y="1136" text-anchor="end">PLACEHOLDER</text>
-</g>
 </svg>

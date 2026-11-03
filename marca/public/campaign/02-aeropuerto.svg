@@ -56,8 +56,4 @@
     <path d="M 880.0000000000001 2000 C 896.0000000000001 1560 1056 1440 1280 1440 C 1504 1440 1600 1600 1600 1720 L 1600 2000 Z" fill="#050505"/>
 <rect width="1600" height="2000" fill="url(#vig-c-02-aeropuerto)"/>
 <rect width="1600" height="2000" filter="url(#grain-c-02-aeropuerto)" opacity=".55" style="mix-blend-mode:overlay"/>
-<g font-family="ui-monospace, Menlo, monospace" font-size="23" letter-spacing="3" fill="#ffffff" fill-opacity=".7">
-  <text x="64" y="1936">AEROPUERTO</text>
-  <text x="1536" y="1936" text-anchor="end">PLACEHOLDER</text>
-</g>
 </svg>

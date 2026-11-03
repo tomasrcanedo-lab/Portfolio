@@ -60,8 +60,4 @@
         <path d="M -70 -50 Q 0 -62 70 -50" stroke="#0A0A0A" stroke-width="22" fill="none"/></g>
       <path d="M 560 900 Q 600 916 640 900" stroke="#a9a9a5" stroke-width="6" fill="none" stroke-linecap="round"/>
 
-<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="20" letter-spacing="2" fill="#6B6B6B">
-  <text x="48" y="1452">FILO // NEGRO — PUESTO</text>
-  <text x="1152" y="1452" text-anchor="end">PLACEHOLDER</text>
-</g>
 </svg>

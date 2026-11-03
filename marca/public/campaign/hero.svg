@@ -60,8 +60,4 @@
     </g>
 <rect width="2400" height="1500" fill="url(#vig-c-hero)"/>
 <rect width="2400" height="1500" filter="url(#grain-c-hero)" opacity=".55" style="mix-blend-mode:overlay"/>
-<g font-family="ui-monospace, Menlo, monospace" font-size="34" letter-spacing="3" fill="#ffffff" fill-opacity=".7">
-  <text x="96" y="1404">DROP 01 — PLAYA</text>
-  <text x="2304" y="1404" text-anchor="end">PLACEHOLDER</text>
-</g>
 </svg>

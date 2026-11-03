@@ -55,3 +55,8 @@ Regenerar placeholders: `npm run placeholders`.
 ## Deploy
 
 Pensado para Vercel. Si el repo tiene más proyectos, configurar *Root Directory* = `marca`. Setear `NEXT_PUBLIC_SITE_URL` para SEO, sitemap y Open Graph.
+
+## Video del hero
+
+Subir `public/campaign/hero.mp4` (y opcional `hero.webm`). El hero lo reproduce en loop, sin sonido, en blanco y negro, y usa `hero.jpg` como imagen mientras carga.
+Recomendado: 8 a 15 segundos, 1920 px de ancho, menos de 6 MB, sin audio. Con "reducir movimiento" activado en el dispositivo, se muestra la imagen fija.

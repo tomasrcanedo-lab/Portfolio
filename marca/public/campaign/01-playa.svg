@@ -58,8 +58,4 @@
     </g>
 <rect width="1600" height="2000" fill="url(#vig-c-01-playa)"/>
 <rect width="1600" height="2000" filter="url(#grain-c-01-playa)" opacity=".55" style="mix-blend-mode:overlay"/>
-<g font-family="ui-monospace, Menlo, monospace" font-size="23" letter-spacing="3" fill="#ffffff" fill-opacity=".7">
-  <text x="64" y="1936">PLAYA</text>
-  <text x="1536" y="1936" text-anchor="end">PLACEHOLDER</text>
-</g>
 </svg>

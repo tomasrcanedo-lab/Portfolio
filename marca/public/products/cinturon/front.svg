@@ -51,8 +51,4 @@
         <rect x="-8" y="-80" width="16" height="160" fill="url(#silver-cinturon)"/>
       </g>
 
-<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="20" letter-spacing="2" fill="#6B6B6B">
-  <text x="48" y="1452">CINTURÓN // NEGRO</text>
-  <text x="1152" y="1452" text-anchor="end">PLACEHOLDER</text>
-</g>
 </svg>
